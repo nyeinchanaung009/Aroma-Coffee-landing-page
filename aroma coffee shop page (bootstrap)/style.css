@@ -77,6 +77,12 @@ body{
 	background:var(--mygraient) !important;
 }
 
+.navbar{
+	position: sticky !important;
+	top: 0 !important;
+	z-index: 99 !important;
+}
+
 .mybtn{
 	color: #fff;
 	padding: 10px 35px;
@@ -95,16 +101,21 @@ body{
 	border:1px solid var(--myyellow);
 }
 
-#navv ul li{
+#navv ul li a{
 	border: 2px solid transparent;
+	padding: 7px 20px !important;
+	border-radius: 20px !important;
 }
 
-#navv ul li:hover{
+#navv ul li a:hover{
 	background-color: var(--prilight);
 }
 
-.nav-item.active{
+.nav-link.active{
 	border: 2px solid var(--prilight) !important;
+	background-color: transparent !important;
+	padding: 7px 20px !important;
+	border-radius: 20px !important;
 }
 
 #shadowblur{
@@ -140,4 +151,14 @@ footer .container-fluid{
 
 .mybtn2:hover{
 	background-color: var(--myyellow) !important;
+}
+
+.gallery{
+	transition: all 0.3s;
+}
+
+.gallery:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	transform: scale(1.1);
 }
