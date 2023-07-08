@@ -1,0 +1,45 @@
+#body-bg{
+    background:url('../images/dark\ home\ bg\ \(1\).jpg');
+    background-position: center center;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    fill: contrast(109%);
+}
+
+body.dark #body-bg{
+    filter:contrast(109%) brightness(110%) saturate(110%);
+}
+
+
+#loading{
+    animation:myspin2 2s ease infinite forwards;
+}
+
+.spinner{
+    animation:myspin 17s linear infinite forwards;
+}
+
+.spinner2{
+    animation:myspin2 11s linear infinite forwards;
+}
+
+
+
+@keyframes myspin{
+    from{
+        transform:rotate(-90deg);
+    }
+    to{
+        transform:rotate(105deg);
+    }
+}
+
+@keyframes myspin2{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
