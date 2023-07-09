@@ -23,7 +23,7 @@
     <script src="https://kit.fontawesome.com/fa84f7b3bc.js" crossorigin="anonymous"></script>
     <!-- ========== fav icon ========== -->
     <link href="./assets/icons/favicon.png" rel="icon" type="image/png" />
-    <title>Nyein Chan Aung Portfolio - V2</title>
+    <title>Nyein Chan Aung Portfolio - V1</title>
 </head>
 <body id="body" class="dark overflow-x-hidden">
 
@@ -39,6 +39,7 @@
 
     <!-- ========== fixed background ========== -->
     <div id="body-bg" class="fixed top-0 left-0 w-screen h-screen -z-10" data-scroll data-scroll-sticky data-scroll-target="#body" >
+        <!-- <img id="body-bg" src="./assets/images/dark home bg.jpg" alt="fixed bg" class="object-cover" width="100%" /> -->
     </div>
 
 
@@ -56,7 +57,7 @@
 
     <!-- ========== project model 1 ========== -->
     <div id="model1" data-scroll data-scroll-sticky data-scroll-target="#body" class="hidden fixed top-0 left-0 w-screen h-screen bg-dark p-1 sm:p-5 z-30 backdrop-blur-md">
-        <div class=" model w-full h-full overflow-auto">
+        <div class="model w-full h-full overflow-auto">
             <div class="w-[98%] sm:w-[90%] lg:w-[80%] mx-auto relative bg-bg dark:bg-dark_bg md:p-3 flex justify-center align-middle flex-wrap py-4 border border-para_txt/40 dark:border-dark_para_txt/40 rounded-md mt-8 md:mt-6 outline outline-para_txt/10 dark:outline-dark_para_txt/10 outline-offset-8 shadow-md shadow-mode_txt/60 dark:shadow-none">
                 <div class="w-full sm:w-10/12 md:w-8/12 lg:w-6/12 mx-auto">
 
@@ -110,7 +111,7 @@
                     </ul>
                 </div>
 
-                <div class="absolute -top-1 -right-2 scale-75 md:scale-90 lg:scale-100 shadow-lg shadow-mode_txt/50 dark:shadow-none" onclick="closeModel('model1')">
+                <div class="absolute -top-1 -right-1 scale-75 md:scale-90 lg:scale-100 shadow-lg shadow-mode_txt/50 dark:shadow-none" onclick="closeModel('model1')">
                     <i class="bi bi-x-lg text-xl bg-accent_color dark:bg-dark_accent_color text-dark_mode_txt dark:text-mode_txt hover:bg-mode_txt dark:hover:bg-dark_mode_txt duration-200 px-3 py-2 rounded-sm shadow-sm"></i>
                 </div>
             </div>
@@ -246,7 +247,7 @@
 
 
     <!-- ========== header ========== -->
-    <header data-scroll data-scroll-sticky data-scroll-target="#body" class="z-20 sticky top-0 bg-bg/20 dark:bg-dark_bg/20 md:bg-none border-slate-800/10 dark:border-slate-200/5 md:border:none backdrop-blur-md md:backdrop-blur-0">
+    <header data-scroll data-scroll-sticky data-scroll-target="#body" class="w-screen z-20 fixed top-0 bg-bg/20 dark:bg-dark_bg/20 border-slate-800/10 dark:border-slate-200/5 md:border-none dark:md:border-none md:bg-transparent dark:md:bg-transparent backdrop-blur-md md:backdrop-blur-0">
         <nav class="py-3 px-5 md:px-16 lg:px-28 flex justify-between align-middle flex-wrap ">
             <a href="index.html" class="hover:opacity-70 scale-90 md:scale-100">
                 <img id="logo" src="./assets/icons/logo.png" alt="logo" width="50px" />
@@ -268,7 +269,7 @@
     <!-- ========== main ========== -->
     <main>
         <!-- ========== home section ========== -->
-        <section id="home" class="md:h-[90vh] relative pb-8">
+        <section id="home" class="md:h-[90vh] relative pb-8 mt-[67px]">
             <div class="w-10/12 mx-auto h-full md:flex justify-between align-middle relative">
                 <div class="my-auto pb-6 md:pr-16 scale-[0.87] md:scale-[0.95] lg:scale-100">
                     <p data-scroll data-scroll-delay="0.05" data-scroll-speed="2" class="text-mode_txt dark:text-dark_para_txt font-semibold dark:font-medium font-gruppo text-2xl my-0 pt-5 md:pt-0">Hi, I'm</p>
@@ -285,8 +286,8 @@
                     <a linkss="#contact" class="nav-links cursor-pointer text-mode_txt dark:text-dark_mode_txt font-dela text-3xl hover:text-accent_color dark:hover:text-dark_accent_color hover:-translate-y-1 duration-200 hover:underline underline-offset-4">Contact</a>
                 </div>
                 <div class="hidden lg:block absolute bottom-[5%] left-[35%]">
-                    <a linkss="#about" class="nav-links cursor-pointer p-4 text-para_txt dark:text-dark_para_txt font-inter font-light">
-                        <i class="bi bi-mouse text-accent_color dark:text-dark_main_title text-xl"></i>
+                    <a linkss="#about" class="nav-links cursor-pointer p-4 text-para_txt dark:text-dark_para_txt hover:text-main_title dark:hover:text-dark_mode_txt font-inter font-light duration-200">
+                        <i class="bi bi-mouse text-accent_color dark:text-dark_main_title text-xl "></i>
                         Scroll down
                         <i class="bi bi-arrow-down-short text-accent_color dark:text-dark_main_title text-2xl"></i>
                     </a>
@@ -320,7 +321,7 @@
                 <div class="lg:w-5/12 my-auto lg:order-2">
                     <div class="flex justify-center align-middle pt-2 md:pt-14 lg:pt-2">
                         <!-- <img src="./assets/images/aboutme img dark (1).png" alt="about me img" width="310px" class="object-cover drop-shadow-xl" /> -->
-                        <div class="w-[325px] sm:w-[355px] lg:w-[335px] xl:w-[370px] p-8 pb-0 rounded-full overflow-hidden border-2 border-dark_main_title ring-2 ring-[#2a2b37d8] ring-offset-8 ring-offset-dark_bg shadow-md shadow-mode_txt/20 dark:shadow-none bg-gradient-to-t from-[#10101a] from-10% via-[#13131d] via-30% to-[#191a25] to-90%">
+                        <div class="w-[325px] sm:w-[355px] lg:w-[335px] xl:w-[370px] p-8 pb-0 rounded-full overflow-hidden border-2 border-main_title dark:border-dark_main_title ring-2 ring-[#2a2b37d8] ring-offset-8 ring-offset-dark_bg shadow-md shadow-mode_txt/20 dark:shadow-none bg-gradient-to-t from-[#10101a] from-10% via-[#13131d] via-30% to-[#191a25] to-90%">
                             <img src="./assets/images/about_me 22.png" alt="about me img" width="100%" class="object-cover drop-shadow-md" />
                         </div>
                     </div>
@@ -506,8 +507,8 @@
                             <i class="fa-brands fa-js mr-10 text-2xl text-mode_txt dark:text-dark_mode_txt"></i>
                             <i class="fa-brands fa-php mr-10 text-2xl text-mode_txt dark:text-dark_mode_txt"></i>
                         </div>
-                        <div class="mt-3 text-center">
-                            <button onclick="openModel('model1')" class="font-inter font-medium text-mode_txt dark:text-dark_mode_txt hover:text-accent_color dark:hover:text-dark_accent_color duration-200 drop-shadow-sm">See more <i class="bi bi-arrow-right ml-1"></i></button>
+                        <div class="mt-8 md:mt-5 text-center">
+                            <button onclick="openModel('model1')" class="font-inter font-medium bg-main_title dark:bg-dark_main_title text-dark_mode_txt dark:text-dark_mode_txt hover:bg-mode_txt dark:hover:bg-dark_mode_txt dark:hover:text-mode_txt duration-200 drop-shadow-sm rounded px-3 py-1">See more <i class="bi bi-arrow-right ml-1"></i></button>
                         </div>
                     </div>
                     <div data-scroll data-scroll-delay="0.05" data-scroll-speed="3" class="absolute -right-2 top-0">
@@ -526,8 +527,8 @@
                             <i class="fa-brands fa-js ml-10 text-2xl text-mode_txt dark:text-dark_mode_txt"></i>
                             <i class="fa-brands fa-php ml-10 text-2xl text-mode_txt dark:text-dark_mode_txt"></i>
                         </div>
-                        <div class="mt-3 text-center">
-                            <button onclick="openModel('model2')" class="font-inter font-medium text-mode_txt dark:text-dark_mode_txt hover:text-accent_color dark:hover:text-dark_accent_color duration-200 drop-shadow-sm">See more <i class="bi bi-arrow-right ml-1"></i></button>
+                        <div class="mt-8 md:mt-5 text-center">
+                            <button onclick="openModel('model2')" class="font-inter font-medium bg-main_title dark:bg-dark_main_title text-dark_mode_txt dark:text-dark_mode_txt hover:bg-mode_txt dark:hover:bg-dark_mode_txt dark:hover:text-mode_txt duration-200 drop-shadow-sm rounded px-3 py-1">See more <i class="bi bi-arrow-right ml-1"></i></button>
                         </div>
                     </div>
                     <div class="md:w-7/12 sm:h-[270px] mx-auto lg:-translate-x-20 border-2 border-para_txt/60 dark:border-0 rounded-md overflow-hidden  shadow-xl shadow-slate-800/30 dark:shadow-none mt-10 lg:mt-0">
@@ -552,8 +553,8 @@
                             <i class="fa-brands fa-js mr-10 text-2xl text-mode_txt dark:text-dark_mode_txt"></i>
                             <i class="fa-brands fa-php mr-10 text-2xl text-mode_txt dark:text-dark_mode_txt"></i>
                         </div>
-                        <div class="mt-3 text-center">
-                            <button onclick="openModel('model3')" class="font-inter font-medium text-mode_txt dark:text-dark_mode_txt hover:text-accent_color dark:hover:text-dark_accent_color duration-200 drop-shadow-sm">See more <i class="bi bi-arrow-right ml-1"></i></button>
+                        <div class="mt-8 md:mt-5 text-center">
+                            <button onclick="openModel('model3')" class="font-inter font-medium bg-main_title dark:bg-dark_main_title text-dark_mode_txt dark:text-dark_mode_txt hover:bg-mode_txt dark:hover:bg-dark_mode_txt dark:hover:text-mode_txt duration-200 drop-shadow-sm rounded px-3 py-1">See more <i class="bi bi-arrow-right ml-1"></i></button>
                         </div>
                     </div>
                     <div data-scroll data-scroll-delay="0.05" data-scroll-speed="3" class="absolute -right-2 top-0">
@@ -587,8 +588,8 @@
                             <p class="font-gruppo text-lg text-card_txt">Php pure website</p>
                         </div>
                         <div>
-                            <a href="#" class="text-card_txt text-xl mr-4 hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
-                            <a href="#" class="text-card_txt text-xl hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
                         </div>
                     </div>
                     <div class="w-full mt-5 rounded-sm overflow-hidden">
@@ -603,8 +604,8 @@
                             <p class="font-gruppo text-lg text-card_txt">Php pure website</p>
                         </div>
                         <div>
-                            <a href="#" class="text-card_txt text-xl mr-4 hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
-                            <a href="#" class="text-card_txt text-xl hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
+                            <a href="#" class="ttext-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
                         </div>
                     </div>
                     <div class="w-full mt-5 rounded-sm overflow-hidden">
@@ -619,8 +620,8 @@
                             <p class="font-gruppo text-lg text-card_txt">Php pure website</p>
                         </div>
                         <div>
-                            <a href="#" class="text-card_txt text-xl mr-4 hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
-                            <a href="#" class="text-card_txt text-xl hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
                         </div>
                     </div>
                     <div class="w-full mt-5 rounded-sm overflow-hidden">
@@ -635,8 +636,8 @@
                             <p class="font-gruppo text-lg text-card_txt">Php pure website</p>
                         </div>
                         <div>
-                            <a href="#" class="text-card_txt text-xl mr-4 hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
-                            <a href="#" class="text-card_txt text-xl hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
                         </div>
                     </div>
                     <div class="w-full mt-5 rounded-sm overflow-hidden">
@@ -651,8 +652,8 @@
                             <p class="font-gruppo text-lg text-card_txt">Php pure website</p>
                         </div>
                         <div>
-                            <a href="#" class="text-card_txt text-xl mr-4 hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
-                            <a href="#" class="text-card_txt text-xl hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
                         </div>
                     </div>
                     <div class="w-full mt-5 rounded-sm overflow-hidden">
@@ -667,8 +668,8 @@
                             <p class="font-gruppo text-lg text-card_txt">Php pure website</p>
                         </div>
                         <div>
-                            <a href="#" class="text-card_txt text-xl mr-4 hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
-                            <a href="#" class="text-card_txt text-xl hover:text-accent_color dark:hover:text-dark_accent_color duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-eye-fill" title="View demo" target="_blank"></i></a>
+                            <a href="#" class="text-xl mr-4 text-main_title dark:text-dark_main_title hover:text-dark_mode_txt dark:hover:text-dark_mode_txt duration-200"><i class="bi bi-github" title="Get code" target="_blank"></i></a>
                         </div>
                     </div>
                     <div class="w-full mt-5 rounded-sm overflow-hidden">
